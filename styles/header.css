@@ -1,0 +1,120 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #dedede;
+    background-color: white;
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36.5px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 0;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar::placeholder{
+    font-size: 16px;
+    font-family: arial;
+}
+.search-button{
+    height: 40px;
+    width: 64px;
+    background-color: #f7f7f7;
+    border: 1px solid gray;
+    margin-left: -1px;
+    margin-right: 8px;
+    position: relative;
+}
+
+
+.search-icon{
+    height: 20px;
+    margin-top: 4px;
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+}
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
+    
+}
+.right-section{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.upload-icon{
+    height: 24px;
+}
+.youtube-apps-icon{
+    height: 24px;
+}
+.notifications-icon{
+    height: 24px;
+    
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    background-color: #cc0000;
+    color: white;
+    font-family: arial;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 80px;
+    border: 2px solid white;
+}
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.user-picture{
+    height: 32px;
+    border-radius: 16px;
+}
+.right-button-upload,
+.right-button-apps,
+.right-button-notifications,
+.right-button-picture{
+    border: none;
+    background-color: white;
+}
